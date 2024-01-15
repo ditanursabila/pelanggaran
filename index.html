@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelanggaran</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>PELANGGARAN SISWA</h1></header>
+    <h4>Selamat datang di Pelanggaran Siswa</h4>
+    <p>Ini adalah tempat untuk mencatat siswa yang melanggar peraturan dan tata tertib sekolah dengan berbagai jenis pelanggaran yang bisa di berikan oleh guru yang melihat siswa tersebut melanggar peraturandi sekolah.</p>
+    <div class="nama1"><h3>Jenis Pelanggaran</h3></div>
+    <div class="jenis">
+      <ul>
+        <li>Tidak memakai dasi</li>
+        <li>Tidak memakai atribut</li>
+        <li>Membawa makeup</li>
+        <li>Merokok di area sekolah</li>
+      </ul>
+    </div>
+
+    <div class="inputan">
+      <div class="judul"><h3>Silahkan Isi Form Di Bawah Ini</h3></div>
+
+      <form>
+        <div class="field">
+          <label>Masukan foto</label><br />
+          <input type="image" required />
+        </div>
+        <div>
+          <label>Masukan Nama</label><br />
+          <input type="text" required />
+        </div>
+        <div>
+          <label>Masukan Kelas</label><br />
+          <input type="text" required />
+        </div>
+        <div>
+          <label>Jenis Pelanggaran</label>
+          <select>
+            <option>Pilih Pelanggaran</option>
+            <option>Tidak memakai dasi</option>
+            <option>Tidak memakai atribut</option>
+            <option>Membawa makeup</option>
+            <option>Merokok di area sekolah</option>
+          </select>
+        </div>
+        <center><button type="submit" class="btn btn-primary">Kirim</button></center>
+      </form>
+    </div>
+
+    <h3><center>Data yang sudah melanggar</center></h3>
+    <table border="1" width="800px" align="center">
+      <tr>
+        <th>Foto</th>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>Jenis Pelanggaran</th>
+      </tr>
+      <tr>
+        <td>
+          <center><img src="img/dita.jpg" width="20%" /></center>
+        </td>
+        <td>Dita Nur Sabila</td>
+        <td>XI PPLG 2</td>
+        <td>Tidak memakai dasi</td>
+      </tr>
+      <tr>
+        <td>
+          <center><img src="img/fh.png" width="10%" /></center>
+        </td>
+        <td>Mirna Triani</td>
+        <td>XI PPLG 2</td>
+        <td>Tidak memakai atribut</td>
+      </tr>
+      <tr>
+        <td>
+          <center><img src="img/fh.png" width="10%" /></center>
+        </td>
+        <td>Elisa Mardiyani</td>
+        <td>XI PPLG 2</td>
+        <td>Membawa makeup</td>
+      </tr>
+    </table>
+  </body>
+</html>

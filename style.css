@@ -1,0 +1,46 @@
+body {
+  background-image: url("img/bc.jpg");
+}
+header {
+  background-color: rgb(98, 87, 87);
+  text-align: center;
+  color: white;
+}
+p,
+h4 {
+  text-align: center;
+}
+.jenis {
+  margin-left: 40%;
+  background-color: rgb(104, 77, 77);
+  width: 25%;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+}
+table {
+  border-radius: 10px 10px 10px 10px;
+}
+th {
+  background-color: rgb(146, 151, 151);
+}
+td {
+  background-color: rgb(169, 155, 136);
+}
+.inputan {
+  margin-left: 40%;
+}
+.nama1 {
+  text-align: center;
+}
+form {
+  margin-right: 50%;
+  background-color: rgb(141, 117, 117);
+  width: 50%;
+  border-radius: 10px 10px 10px 10px;
+}
+button {
+  margin-top: 3%;
+  background-color: blue;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+}
